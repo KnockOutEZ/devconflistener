@@ -1,6 +1,6 @@
 DevConfBD Ticket Watcher
 
-This repository contains a Go program that continuously monitors the DevConfBD website for the availability of tickets. When tickets become available, the program will send a notification to your phone via SMS.
+This repository contains a Go program that continuously monitors the DevConfBD website for the availability of tickets. When tickets become available, the program will send a notification to your phone via Whatsapp.
 
 
 Getting Started
