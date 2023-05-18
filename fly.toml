@@ -1,0 +1,18 @@
+# fly.toml app configuration file generated for devconfbot on 2023-05-19T05:01:03+06:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = "devconfbot"
+primary_region = "sin"
+
+[http_service]
+  internal_port = 4000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+[env]
+  MY_SPECIAL_ENV = "some_value"
+  MAX_PLAYER_COUNT = "15"
+  PORT = "4000"
